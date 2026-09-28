@@ -1,0 +1,30 @@
+# Core
+python-dotenv>=1.0.0
+logging
+
+# LlamaIndex (new modular structure)
+llama-index>=0.10.30
+llama-index-core>=0.10.30
+llama-index-embeddings-huggingface>=0.1.4
+
+# Ollama LLM integration
+ollama>=0.1.7
+
+# HuggingFace embeddings
+sentence-transformers>=2.6.1
+transformers>=4.38.0
+torch>=2.1.0
+
+# LiveKit Voice Agent
+livekit-agents>=0.6.0
+livekit-plugins-silero>=0.5.0
+livekit-plugins-assemblyai>=0.5.0
+livekit-plugins-cartesia>=0.4.0
+
+# Audio / Speech dependencies
+soundfile>=0.12.1
+numpy>=1.24.0
+scipy>=1.11.0
+
+# Async utilities
+aiohttp>=3.9.0
